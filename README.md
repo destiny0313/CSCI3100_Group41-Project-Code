@@ -14,7 +14,8 @@ money" shopping mode.
 
 ## Implementation
 In this project, our group decided to use C language for implementation.<br/>
-For stage 2 - Initial Code, we are using mySQL and PHP to implement the application.
+For stage 2 - Initial Code, we are using mySQL and PHP to implement the application.<br/>
+To do so, we export sql files of our database from PHPMyAdmin. We also write PHP codes in notepad. 
 
 ## Key Dates
 Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
