@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `card information`
 --
 
-CREATE TABLE `card information` (
+CREATE TABLE `card_information` (
   `firstname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
   `cardnumber` int(16) NOT NULL,
