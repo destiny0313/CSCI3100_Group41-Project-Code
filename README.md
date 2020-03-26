@@ -13,9 +13,12 @@ of environmental management. Lastly, we aim to stimulate consumptions of the soc
 money" shopping mode.
 
 ## Implementation
-In this project, our group decided to use C language for implementation.<br/>
-For stage 2 - Initial Code, we are using mySQL and PHP to implement the application.<br/>
-To do so, we export sql files of our database from PHPMyAdmin. We also write PHP codes in notepad. 
+In this project, our group mainly use PHP and HTML code to implement this project.
+
+In this repository, we have opened three folders to store different files.<br/>
+**Database**: Storage of sql files. We have implemented 5 database. The credit card database is just a simulation of bank's database.
+**Functions**: Storage of php files. All functions and UI of the application is implemented by PHP and HTML codes.
+**Logo**: Storage of logo related materials.
 
 ## Key Dates
 Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
