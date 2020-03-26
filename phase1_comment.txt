@@ -1,0 +1,28 @@
+Dear students,
+
+Below please find the score and comment of CSCI3100 project design document.
+
+Score:
+94.5
+
+Comments:
+This project proposes a trading platform named ThingForThing (T4T), which supports both money trading and item exchange. Such a design not only increases the trading flexibility but also improves the public's environmental awareness.
+
+Positive points
+1. The project design document is well articulated. Particularly, I like the inclusion of reference materials.
+2. The idea is of public benefit.
+3. The introduction of the background is very clear and the authors list a lot of references to support their opinion, which is worth encouraging.
+
+
+Suggested improvement
+1. Diagrams lack a detailed description.
+2. An architecture diagram is missing.
+3. The explanation of the functions and data format is not concrete enough. It will bring the difficulty for readers to understand the data flow and the structure of the system.
+4. Some features can be added to make the website more complete, for example, Sign Up, Chatting Room.
+5. The resolution of diagram 5 is not high enough. Readers can hardly read the words in the diagram. It should be replaced by a higher resolution one.
+6. The security of the payment system is too weak. The mature payment system should have a strong backup ability which can trace and recover the data with a strict critical. Directly operating the database without any recording and recovery program is dangerous.
+Defect 6 is just suggestion and will not affect your score of this document.
+
+
+Best regards,
+CSCI3100 TA Group
