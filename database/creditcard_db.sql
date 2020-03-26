@@ -29,11 +29,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `card information` (
-  `First Name` varchar(255) NOT NULL,
-  `Last Name` varchar(255) NOT NULL,
-  `Card Number` int(16) NOT NULL,
-  `Security Code` int(3) NOT NULL,
-  `Expiry Year` date NOT NULL
+  `firstname` varchar(255) NOT NULL,
+  `lastname` varchar(255) NOT NULL,
+  `cardnumber` int(16) NOT NULL,
+  `securitycode` int(3) NOT NULL,
+  `expiryyear` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
