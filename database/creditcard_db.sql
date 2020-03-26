@@ -44,8 +44,8 @@ CREATE TABLE `card_information` (
 -- Indexes for table `card information`
 --
 ALTER TABLE `card information`
-  ADD PRIMARY KEY (`Card Number`),
-  ADD UNIQUE KEY `Card Number` (`Card Number`);
+  ADD PRIMARY KEY (`cardnumber`),
+  ADD UNIQUE KEY `cardnumber` (`cardnumber`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
