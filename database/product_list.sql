@@ -29,11 +29,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `products` (
-  `Product ID` int(11) NOT NULL,
-  `Product Name` varchar(255) NOT NULL,
+  `Product_ID` int(11) NOT NULL,
+  `Product_Name` varchar(255) NOT NULL,
   `Price` float NOT NULL,
   `Status` tinyint(1) NOT NULL,
-  `Seller ID` int(55) NOT NULL,
+  `Seller_ID` int(55) NOT NULL,
   `Stock` int(11) NOT NULL,
   `Photo` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -46,8 +46,8 @@ CREATE TABLE `products` (
 -- Indexes for table `products`
 --
 ALTER TABLE `products`
-  ADD PRIMARY KEY (`Product ID`),
-  ADD UNIQUE KEY `Product ID` (`Product ID`);
+  ADD PRIMARY KEY (`Product_ID`),
+  ADD UNIQUE KEY `Product_ID` (`Product_ID`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
