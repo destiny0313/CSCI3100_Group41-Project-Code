@@ -16,17 +16,17 @@ money" shopping mode.
 In this project, our group mainly use PHP and HTML code to implement this project.
 
 In this repository, we have opened four folders to store different files.<br/>
-**Database**: Storage of sql files. We have implemented 5 database. The credit card database is just a simulation of bank's database.
-**Functions**: Storage of php files. All functions and UI of the application is implemented by PHP and HTML codes.
-**Config**: Storage of config.php files.
+**Database**: Storage of sql files. We have implemented 5 database. The credit card database is just a simulation of bank's database.<br/>
+**Functions**: Storage of php files. All functions and UI of the application is implemented by PHP and HTML codes.<br/>
+**Config**: Storage of config.php files.<br/>
 **Logo**: Storage of logo related materials.
 
 ## Key Dates
-Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
-Phase 2 (Due on 27/3/2020) : Inital Code<br/>
-Phase 3 (Due on 23/4/2020) : Completed Code<br/>
-Phase 4 (Due on 24/4/2020) : Project Demonstration<br/>
-Phase 5 (Due on 17/5/2020) : Final Report and Commented Code<br/>
+- [x] Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
+- [ ] Phase 2 (Due on 27/3/2020) : Inital Code<br/>
+- [ ] Phase 3 (Due on 23/4/2020) : Completed Code<br/>
+- [ ] Phase 4 (Due on 24/4/2020) : Project Demonstration<br/>
+- [ ] Phase 5 (Due on 17/5/2020) : Final Report and Commented Code<br/>
 
 ## Contributors
 **Group 41 (ThingForThing T4T):**<br/>
