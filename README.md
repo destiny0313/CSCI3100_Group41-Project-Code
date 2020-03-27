@@ -16,7 +16,7 @@ money" shopping mode.
 In this project, our group mainly use PHP and HTML code to implement this project.
 
 In this repository, we have opened four folders to store different files.<br/>
-**Database**: Storage of sql files. We have implemented 5 database. The credit card database is just a simulation of bank's database.<br/>
+**Database**: Storage of sql files. We have implemented 6 database. The credit card database is just a simulation of bank's database.<br/>
 **Functions**: Storage of php files. All functions and UI of the application is implemented by PHP and HTML codes.<br/>
 **Config**: Storage of config.php files.<br/>
 **Logo**: Storage of logo related materials.
