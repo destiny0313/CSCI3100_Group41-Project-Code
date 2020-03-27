@@ -3,7 +3,7 @@
 <header>Results:</header>
 <body>
   <table>
-    <?ph
+    <ph?
 
     require_once "product_config.php";
 
