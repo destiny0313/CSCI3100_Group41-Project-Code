@@ -1,4 +1,5 @@
 # Internal Deadlines
+- [x] 24/3 Study on PHP, MySQL, HTML
 - [ ] 30/3 Update Design Report according to initial codes
 - [ ] 10/4 Complete all codes
 - [ ] 15/4 Review all codes
