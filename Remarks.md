@@ -10,3 +10,4 @@
 - [ ] maybe a searching function(?)
 - [ ] exchange request system
 - [ ] Deletion of product from product list after purchase
+- [ ] Increment of ID for SQL database
