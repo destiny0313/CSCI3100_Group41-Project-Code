@@ -12,15 +12,6 @@ attained. We also wish to make contribution to environmental protection by worki
 of environmental management. Lastly, we aim to stimulate consumptions of the society by publishing "no
 money" shopping mode.
 
-## Implementation
-In this project, our group mainly use PHP and HTML code to implement this project.
-
-In this repository, we have opened four folders to store different files.<br/>
-**Database**: Storage of sql files. We have implemented 6 database. The credit card database is just a simulation of bank's database.<br/>
-**Functions**: Storage of php files. All functions and UI of the application is implemented by PHP and HTML codes.<br/>
-**Config**: Storage of config.php files.<br/>
-**Logo**: Storage of logo related materials.
-
 ## Key Dates
 - [x] Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
 - [x] Phase 2 (Due on 27/3/2020) : Inital Code<br/>
