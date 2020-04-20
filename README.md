@@ -15,7 +15,7 @@ money" shopping mode.
 ## Key Dates
 - [x] Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
 - [x] Phase 2 (Due on 27/3/2020) : Inital Code<br/>
-- [ ] Phase 3 (Due on 23/4/2020) : Completed Code<br/>
+- [x] Phase 3 (Due on 23/4/2020) : Completed Code<br/>
 - [ ] Phase 4 (Due on 24/4/2020) : Project Demonstration<br/>
 - [ ] Phase 5 (Due on 17/5/2020) : Final Report and Commented Code<br/>
 
