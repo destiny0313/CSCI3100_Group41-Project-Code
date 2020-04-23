@@ -24,7 +24,6 @@ while($row=$result->fetch_assoc()){
   echo "</td></tr>";
 }
 echo "</table><br/>";
-unset($row);
 
 
 $query="SELECT * FROM request WHERE sellerid='$userid'";
