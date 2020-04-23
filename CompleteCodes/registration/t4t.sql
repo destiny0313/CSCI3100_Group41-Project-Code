@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2020 at 10:33 PM
+-- Generation Time: Apr 23, 2020 at 10:45 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -77,14 +77,6 @@ CREATE TABLE `products` (
   `status` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `products`
---
-
-INSERT INTO `products` (`productname`, `price`, `product_id`, `photo`, `sellerid`, `status`) VALUES
-('stone', 10, 11, 'https://atlas.wiki.fextralife.com/file/Atlas/stone_resources_atlas_mmo_game_wiki_guide.png', 3, 'onlist'),
-('deluxe bear', 1, 12, 'https://maimai.sega.com/storage/root/dxkuma.png', 3, 'onlist');
-
 -- --------------------------------------------------------
 
 --
@@ -99,14 +91,6 @@ CREATE TABLE `request` (
   `product_id` int(11) NOT NULL,
   `change_item` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `request`
---
-
-INSERT INTO `request` (`sellerid`, `buyerid`, `status`, `requestid`, `product_id`, `change_item`) VALUES
-(3, 3, 'Accepted', 1, 11, '123'),
-(3, 3, 'Rejected', 2, 12, 'asd');
 
 -- --------------------------------------------------------
 
@@ -130,7 +114,8 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
 (2, 't4t_admin2', 'admin2@t4t.com', '0192023a7bbd73250516f069df18b500'),
 (3, 'admin123', 'admin123@123.123', '0192023a7bbd73250516f069df18b500'),
 (4, 'baka', 'dsf@asd.asd', '202cb962ac59075b964b07152d234b70'),
-(5, 'mouse', 'mouse@ff.com', '7815696ecbf1c96e6894b779456d330e');
+(5, 'mouse', 'mouse@ff.com', '7815696ecbf1c96e6894b779456d330e'),
+(6, 'admin', 'admin@admin', '21232f297a57a5a743894a0e4a801fc3');
 
 --
 -- Indexes for dumped tables
@@ -174,19 +159,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `request`
 --
 ALTER TABLE `request`
-  MODIFY `requestid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `requestid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
