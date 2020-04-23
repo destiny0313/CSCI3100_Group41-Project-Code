@@ -12,6 +12,11 @@ attained. We also wish to make contribution to environmental protection by worki
 of environmental management. Lastly, we aim to stimulate consumptions of the society by publishing "no
 money" shopping mode.
 
+## About the Documents
+All the codes are included in CompleteCodes/Registration
+Please pull all the file in this path, and add the files, name it T4T
+Then the codes will become runnable.
+
 ## Key Dates
 - [x] Phase 1 (Due on 13/3/2020) : Project Design Document<br/>
 - [x] Phase 2 (Due on 27/3/2020) : Inital Code<br/>
