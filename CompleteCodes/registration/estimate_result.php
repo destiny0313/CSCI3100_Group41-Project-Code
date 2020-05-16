@@ -23,3 +23,4 @@ if(!(empty($search_price))){
       echo "</marquee>";
     }
   }
+?>
